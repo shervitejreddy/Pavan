@@ -1,0 +1,36 @@
+{
+  "name": "gopool-hyderabad-angular",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "ng": "ng",
+    "dev": "ng serve --host 0.0.0.0 --port 3000",
+    "start": "ng serve --host 0.0.0.0 --port 3000",
+    "build": "ng build",
+    "watch": "ng build --watch --configuration development",
+    "lint": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@angular/common": "^19.2.0",
+    "@angular/compiler": "^19.2.0",
+    "@angular/core": "^19.2.0",
+    "@angular/forms": "^19.2.0",
+    "@angular/platform-browser": "^19.2.0",
+    "@angular/router": "^19.2.0",
+    "@google/genai": "^2.4.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "postcss": "^8.4.38",
+    "rxjs": "~7.8.0",
+    "tailwindcss": "^4.0.0",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular/build": "^19.2.0",
+    "@angular/cli": "^19.2.0",
+    "@angular/compiler-cli": "^19.2.0",
+    "@types/google.maps": "^3.66.4",
+    "@types/node": "^22.14.0",
+    "typescript": "~5.7.2"
+  }
+}

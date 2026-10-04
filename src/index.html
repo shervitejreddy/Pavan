@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Remix CampusPool IT - Employee Ride Share & Green Commute Benefit</title>
+    <meta name="description" content="IT campus bike and car pooling app with verified employee badges, automated fair fuel cost splitting, and corporate green commuting subsidies (₹3 for bike pools, ₹5 for car pools)." />
+    <meta property="og:title" content="Remix CampusPool IT - Employee Ride Share & Green Commute Benefit" />
+    <meta property="og:description" content="IT campus bike and car pooling app with verified employee badges, automated fair fuel cost splitting, and corporate green commuting subsidies (₹3 for bike pools, ₹5 for car pools)." />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%23059669' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><circle cx='18.5' cy='17.5' r='3.5'/><circle cx='5.5' cy='17.5' r='3.5'/><path d='M15 6a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm-3 11.5V14l-3-3 4-3 2 3h2'/></svg>" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet" />
+    <base href="/" />
+    <script>
+      window.gm_authFailure = function() {
+        window.dispatchEvent(new CustomEvent('gmp-quota-exceeded'));
+      };
+      var origError = console.error;
+      console.error = function() {
+        origError.apply(console, arguments);
+        var msg = Array.prototype.slice.call(arguments).map(String).join(' ');
+        if (msg.indexOf('OverQuotaMapError') !== -1 || msg.indexOf('QuotaExceededError') !== -1) {
+          window.dispatchEvent(new CustomEvent('gmp-quota-exceeded'));
+        }
+      };
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCaxlkuDgnjAmkOKmLWsWVpFuE3NNBBJSc&libraries=places,marker,geometry&v=weekly"></script>
+  </head>
+  <body class="bg-slate-50 text-slate-900 antialiased">
+    <app-root></app-root>
+  </body>
+</html>

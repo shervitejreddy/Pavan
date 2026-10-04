@@ -1,0 +1,8 @@
+{
+  "name": "Remix CampusPool IT - Employee Ride Share \u0026 Green Commute Benefit",
+  "description": "IT campus bike and car pooling app with verified employee badges, automated fair fuel cost splitting, and corporate green commuting subsidies (₹3 for bike pools, ₹5 for car pools).",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
